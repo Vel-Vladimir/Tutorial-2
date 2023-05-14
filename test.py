@@ -5,3 +5,5 @@ def my_function():
     pass
 
 print_func(my_function)
+
+a = []
