@@ -23,4 +23,4 @@ try:
 except:
     pass
 else:
-    pass # выпониться когда ни разу не выполнится исключение (exception)
+    pass # выпониться если не было исключения (exception)
