@@ -13,7 +13,7 @@ print((1 or 0) and 0) # 0
 
 while True:
     print("Inside while loop")
-    break
+    # break
 else:
     print("inside ELSE in while loop") # выпониться когда ни разу не выполнится цикл while или for
 
