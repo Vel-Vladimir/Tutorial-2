@@ -11,11 +11,13 @@ print("Var = ", var)
 print(1 or 0 and 0) # 1
 print((1 or 0) and 0) # 0
 
-while True:
+
+while var == -1:
     print("Inside while loop")
+    var = 0
     # break
 else:
-    print("inside ELSE in while loop") # выпониться когда ни разу не выполнится цикл while или for
+    print("inside ELSE in while loop") # не выпониться когда внутри  цикла while или for сработал break
 
 try:
     raise ValueError
