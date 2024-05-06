@@ -10,7 +10,7 @@ var = 0 or "" or -1
 print("Var = ", var)
 print(1 or 0 and 0) # 1
 print((1 or 0) and 0) # 0
-## Yummy
+## Yummy 2
 
 while var == -1:
     print("Inside while loop")
